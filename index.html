@@ -11,20 +11,98 @@
 
 <body>
     <header>
-        <h1><span style="color: #f14e32"> GIT</span> TUTORIAL</h1>
+        <h1><span style="color: #f14e32"> GIT</span> <span style="color: #3d2d00">TUTORIAL</span></h1>
         <h6>by PICHARDO</h6>
     </header>
 
     <main>
-
-        <div class="concept">
-            <h2>¿Qué es Git?</h2>
+        <!-- <div class="presentation"> -->
+        <!-- <div class="git-logo">
+                <img src="./assets/git-logo.png" alt="" srcset="">
+            </div>
             <p class="concept-definition">Un <b> programa </b> que sirve cómo <strong>sistema de control de
-                    versiones</strong>, para guardar <i> estados concretos </i>de nuestro código o más bien <b>
-                    commits</b></p>
+                    versiones.</strong> <br> Véase, sirve para guardar <i> estados concretos </i>de nuestro código.
+            </p>
+            <strong>COMMITS</strong>
+            <strong>SE USA EN TODAS PARTES</strong> -->
+
+
+        <!-- COMPARISON -->
+        <div class="comparison">
+            <!-- <div class="git-logo">
+                    <img src="./assets/git-logo.png" alt="" srcset="">
+                    <p class="concept-definition">Un <b> programa </b> que sirve cómo <strong>sistema de control de
+                            versiones.</strong> <br> Véase, sirve para guardar <i> estados concretos </i>de nuestro
+                        código.
+                    </p>
+                </div> -->
+            <!-- <h1 class="blinker">!== </h1> -->
+            <!-- <div class="github-logo">
+                    <img src="./assets/github-logo.png" alt="" srcset="">
+                    <p class="concept-definition">Es una plataforma para alojar proyectos utilizando el sistema de
+                        control de versiones Git.
+                    </p>
+                </div> -->
         </div>
 
+        <div class="familiar-concepts">
+            <!-- <div class="def">
+                    <p><b style="color:green;"> COMMIT:</b> <br> Una "snapshot" (ESTADO EN CONCRETO) de nuestro
+                        repositorio</p>
+                </div> -->
+            <!-- <div class="def">
+                    <p><b style="color: #f14e32">.gitignore:</b> <br> un archivo dónde colocamos los nombres de los
+                        archivos ó carpetas que no
+                        queremos que git "trackee"</p>
+                    <br><br>
+                    <strong>node_modules/</strong>
+                    <strong>archivos-pesados etc./</strong>
+                </div> -->
+        </div>
+        <!-- </div> -->
+        <div class="developing-topics">
+            <div class="concept">
+                <h3 class="title">Repositorio</h3>
+                <p class="definition">Un repositorio de Git es un almacenamiento virtual de tu proyecto. Te permite
+                    guardar versiones del código a las que puedes acceder cuando lo necesites.</p>
+                <code class="command">git init</code>
+                <p class="commandDescription">Es el comando que utilizamos para inicializar un repositorio.</p>
+            </div>
+            <hr>
+            <div class="concept">
+                <h3 class="title">Working Directory</h3>
+                <p class="definition">Se refiere a todos los archivos de los cuales git estará pendiente.</p>
+                <p class="commandDescription">Aquí se encuentran todos los archivos <strong>excepto</strong> aquellos
+                    especificados en el <b style="color: #6e261a">.gitignore</b></p>
+            </div>
+            <div class="concept">
+                <h3 class="title">Staging Area</h3>
+                <p class="definition">Se refiere a todos los archivos, cuyos cambios estarán incluidos en el próximo
+                    commit.</p>
+                <code class="command">git add . </code>
+                <code class="command">git add <strong style="color:gray;">filename</strong> directory/</code>
+                <p class="commandDescription">Los archivos que se encuentran aquí, tendrán los cambios que se incluirán
+                    en el próximo commit</p>
+            </div>
 
+            <div class="concept">
+                <h3 class="title">Commit</h3>
+                <p class="definition">Se crea una nueva snapshot de nuestro código, con los archivos que se encuentran
+                    en la <b>staging area</b> </p>
+                <code class="command">git commit </code>
+                <code class="command">git commit -m <span style="color:green;">"Nombre del commit"</span></code>
+                <p class="commandDescription">Aquí se encuentran los cambios ya completados y que queremos separar de
+                    las demás versiones de nuestro código.</p>
+            </div>
+            <hr>
+
+
+        </div>
+
+        <!-- <div class="references">
+            <h1>Referencias</h1>
+            
+        </div> -->
     </main>
     <main>
 

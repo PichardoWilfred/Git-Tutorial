@@ -5,15 +5,131 @@ body {
 
 header {
   display: flex;
+  justify-content: center;
 }
 
 header > h6 {
   color: gray;
-  font-weight: 500;
+  font-weight: bolder;
 
   height: 20px;
   margin: 0;
 
   margin-left: 10px;
   align-self: center;
+}
+
+/* Introduction */
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 80vh;
+
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.git-logo > img {
+  width: 400px;
+}
+
+.github-logo > img {
+  width: 400px;
+  height: 200px;
+}
+
+p.concept-definition {
+  margin-top: 20px;
+  color: #3d2d00;
+  text-align: center;
+  width: 520px;
+}
+
+/* 2 */
+.comparison {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1.blinker {
+  font-size: 4em;
+  margin: 40px;
+  color: red;
+  animation: blink-animation 100ms infinite;
+  -webkit-animation: blink-animation 400ms steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+/* 2.5 */
+.familiar-concepts {
+  display: flex;
+  flex-direction: column;
+}
+
+.def {
+  margin: 5px 0 5px 0;
+}
+
+/* Main content */
+.developing-topics {
+  display: flex;
+  flex-direction: column;
+}
+hr {
+  background-color: black;
+  width: 100%;
+}
+.concept {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat";
+  margin: 30px 0 30px 0;
+}
+
+.title {
+  font-size: 30px;
+  margin: 3px 0 3px 0;
+}
+
+.definition {
+  width: 50%;
+  margin: 3px 0 3px 0;
+  margin-bottom: 10px;
+}
+
+.command {
+  font-size: 15px;
+  padding: 10px;
+
+  color: white;
+  background-color: black;
+
+  width: 30%;
+}
+.commandDescription {
+  color: rgb(92, 92, 92);
+  background-color: black;
+
+  margin: 0;
+  padding: 10px;
+
+  width: 30%;
+  font-weight: 600;
+
+  border-radius: 0 0 5px 5px;
 }
