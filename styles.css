@@ -1,0 +1,19 @@
+body {
+  margin: 30px;
+  font-family: "Montserrat", Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+}
+
+header > h6 {
+  color: gray;
+  font-weight: 500;
+
+  height: 20px;
+  margin: 0;
+
+  margin-left: 10px;
+  align-self: center;
+}
